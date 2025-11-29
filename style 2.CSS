@@ -1,0 +1,55 @@
+body{
+background-image: url(https://images.pexels.com/photos/2397652/pexels-photo-2397652.jpeg);
+background-position: center;
+background-size: cover;
+}
+
+.form-box {
+  width: 400px;
+  background: white;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  font-family: arial;
+}
+
+.form-box h1 {
+  text-align: center;
+  color: #0077c8;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form textarea {
+  height: 50px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #ffa726;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+select {
+    font-size: 20px;   
+    padding: 10px;     
+}
