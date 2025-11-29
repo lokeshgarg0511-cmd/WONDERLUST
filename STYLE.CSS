@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f8ff;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0077c8;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+}
+
+
+.hero {
+    height: 70vh;
+    background: url("https://via.placeholder.com/1200x700") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-blend-mode: overlay;
+    background-image: url(https://images.pexels.com/photos/2397652/pexels-photo-2397652.jpeg);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    width: 70%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: #ffa726;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.30s;
+}
+
+.hero button :hover {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.section {
+    padding: 50px 60px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #0077c8;
+    margin-bottom: 30px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    color: #0077c8;
+
+}
+
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.30s;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.packages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.package {
+    color: red;
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.30s;
+}
+
+.package span {
+    display: block;
+    margin-top: 10px;
+    color: #0077c8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.package:hover {
+    transform: scale(1.10);
+}
